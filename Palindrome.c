@@ -1,11 +1,10 @@
 /**
  * Project: Simple Palindrome Checker for Beginners
  * Language: C
- * Features: Uses string.h and ctype.h for common operations
  */
 
 #include <stdio.h>
-#include <string.h>  // For strlen, strcpy, strcat, strtok
+#include <string.h>  
 #include <ctype.h>   // For tolower, isalnum
 
 #define MAX_LINE 2000
@@ -211,3 +210,4 @@ int main() {
     
     return 0;
 }
+
